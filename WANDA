@@ -3,12 +3,12 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $SURTURBOT_REPO == "THANOS-PRO" ]]
+    if [[ $SURTURBOT_REPO == "WANDA" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9USEFOT1MtVVNFUkJPVC9hcmNoaXZlL1RIQU5PUy56aXA=" | base64 -d
-    elif [[ $SURTURBOT_REPO == "THANOS-PRO" ]]
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9XQU5EQVVTRVJCT1QvYXJjaGl2ZS9USEFOT1Muemlw" | base64 -d
+    elif [[ $SURTURBOT_REPO == "WANDA" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9USEFOT1MtVVNFUkJPVC9hcmNoaXZlL1RIQU5PUy56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9XQU5EQVVTRVJCT1QvYXJjaGl2ZS9USEFOT1Muemlw" | base64 -d
     elif [[ $SURTURBOT_REPO =~ $regex ]]
     then
         if [[ $SURTURBOT_REPO_BRANCH ]]
@@ -18,7 +18,7 @@ _get_repolink () {
             echo "${SURTURBOT_REPO}/archive/THANOS.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9USEFOT1MtVVNFUkJPVC9hcmNoaXZlL1RIQU5PUy56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1NVUlRVUkJPVC9XQU5EQVVTRVJCT1QvYXJjaGl2ZS9USEFOT1Muemlw" | base64 -d
     fi
 }
 
@@ -26,17 +26,17 @@ _get_repolink () {
 _pro_bot () {
     local zippath
     zippath="THANOS.zip"
-    echo "  💕 Downloading ＴＨΛＮ♢Ｓ－ＰＲ♢ Source Code... 💕"
+    echo "  💕 Downloading ฬคภ๔ค Source Code... 💕"
     wget -q $(_get_repolink) -O "$zippath"
     echo "  💓Unpacking Data...💓"
     THANOSPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo " 💔 Download Complete Now Installing 💔"
-    echo "  ⚡ INSTALLING ＴＨΛＮ♢Ｓ－ＰＲ♢ ⚡"
+    echo "  ⚡ INSTALLING ฬคภ๔ค⚡"
     rm -rf "$zippath"
     sleep 5
     cd $THANOSPATH
-    echo "    ⚡Starting ＴＨΛＮ♢Ｓ－ＰＲ♢⚡     "
+    echo "    ⚡Starting ฬคภ๔ค⚡     "
     echo " 💞 NOW WAIT 3 MIN INSTALLING ALL THANOS PLUGIN 💞"
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
