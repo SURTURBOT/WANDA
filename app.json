@@ -1,5 +1,5 @@
 {
-  "name": "Շђคภ๏ร-קг๏",
+  "name": "ฬคภ๔ค",
   "description": "Tнє Smoothest And Fastest Bot Made By Thanos (@thanosceo). Made with Love And  Python Language With Hardwork... ❤ ",
   "logo": "https://telegra.ph/file/bdf457aee34ed8791c150.jpg",
   "keywords": [
@@ -10,8 +10,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/SURTURBOT/THANOS-PROS/",
-  "website": "https://github.com/SURTURBOT/THANOS-PRO/",
+  "repository": "https://github.com/SURTURBOT/WANDA/",
+  "website": "https://github.com/SURTURBOT/WANDA/",
   "success_url": "https://t.me/THANOSBOT_CHATS",
   "env": {
     "ENV": {
@@ -20,7 +20,7 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name. By default it is Pro-Person",
-      "value": "Շђคภ๏ร๒๏ץ",
+      "value": "op",
       "required": false
     },
     "ALIVE_MSG": {
@@ -50,12 +50,12 @@
     },
     "YOUR_GROUP": {
       "description": "Set Your Group Username. By Default It Is (@risuxp)",
-      "value": "@thanos_PRO",
+      "value": "@friendshipgroup4",
       "required": false
     },
     "YOUR_CHANNEL": {
       "description": "Set Your Channel Username",
-      "value": "@thanos_PRO",
+      "value": "@friendshipgroup4",
       "required": false
     },
     "BOY_OR_GIRL": {
@@ -70,7 +70,7 @@
     },
     "HELP_PIC": {
       "description": "Put here any telegraph media link for priya pic in .priya command.",
-      "value": "https://telegra.ph/file/7eaaefe63542f68ab19f1.mp4",
+      "value": "hhttps://telegra.ph/file/34920ddeb9b9b9ae8b560.mp4ttps://telegra.ph/file/7eaaefe63542f68ab19f1.mp4",
       "required": false
     },
     "PING_PIC": {
@@ -90,7 +90,7 @@
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "I Am Pro Person Because I am User Of Շђคภ๏ร-קг๏.",
+      "value": "I Am Pro Person Because I am User Of wanda.",
       "required": true
     },
     "PM_PIC": {
@@ -100,7 +100,7 @@
     },
     "PM_MSG": {
       "description": "Enter Your custom pm permit msg.",
-      "value": "Hello I Am thanos.\n thanos ultra PM Security Of My Owner To Protect From Spammers. Dont Spam Here Else Get Ban By thanos\n Wait For My Owner To Allow U To Message\nThankYou!",
+      "value": "Hello I Am wanda.\n wanda ultra PM Security Of My Owner To Protect From Spammers. Dont Spam Here Else Get Ban By wanda\n Wait For My Owner To Allow U To Message\nThankYou!",
       "required": false
     },
     "MAX_FLOOD_IN_PM": {
