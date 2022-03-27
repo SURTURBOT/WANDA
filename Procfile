@@ -1,1 +1,1 @@
-worker: bash THANOS-PROS
+worker: bash WANDA
