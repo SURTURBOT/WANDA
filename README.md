@@ -1,8 +1,9 @@
 <h1 align="center">
-<b> Շђคภ๏ร-קг๏ </b>
+<b> ฬคภ๔ค </b>
 </h1>
 
-![THANOSPRO](https://user-images.githubusercontent.com/94896142/156706265-82c519db-5944-4db5-b51c-b3ab9e1c80b7.jpg)
+![7563380](https://user-images.githubusercontent.com/93828850/160288789-f728defb-e5af-491a-93e1-6652d6961d48.jpg)
+
 
 <h6 align="center">
   <b>💞 ·Շђคภ๏ร-קг๏ Is One Of The Unique & Fastest & Smoothest Bot On Telegram Based on Telethon💞</b>
